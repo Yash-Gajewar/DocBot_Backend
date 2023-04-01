@@ -33,7 +33,6 @@ def filterUserSymptom(user_symptoms : list):
             result = result + ","
             final_result.append(result)
             
-
     last_ele = final_result[-1]
     last_ele = last_ele[:-1]
     final_result.pop()
@@ -48,6 +47,7 @@ def filterUserSymptom(user_symptoms : list):
     print(output_string)
 
     return output_string   
+
 
     
 
